@@ -11,7 +11,7 @@ defaults:
       site_description: Nimble Solution Architects
       title: Nimble Solution Architects
       subtitle: Data Driven Story Telling
-      quip: In God We Trust.  All Others Bring Data.
+      quip: Cloud Native Data Publishing
       logo_url: /www/img/branding/logo.png
       style_css: /www/css/www.css
       site_js: /www/js/dashboard.js
