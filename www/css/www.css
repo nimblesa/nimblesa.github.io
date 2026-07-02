@@ -136,6 +136,7 @@ h4 {
     padding: 5px;
     border: 1px solid #f0f3f7;
     border-radius:  0.25em;
+    width: 200px;
 }
 
 .header .top-left .pfp img {
@@ -143,8 +144,18 @@ h4 {
     height: auto;
 }
 
-.header .top-left .title {font-size : 1.5em;}
-.header .top-left .subtitle {font-size : 1em;}
+.header .top-left .title {
+    font: 600 14px 'IBM Plex Mono', monospace; 
+    font-size : 1.5em;
+    text-align: left;
+    color: var(--primary-off-white);
+}
+
+.header .top-left .subtitle {
+    font: 400 12px 'IBM Plex Mono', monospace; 
+    font-size : 1em;
+    color: var(--primary-lt-blue);
+}
 
 .header .top-right {
     display: inline-table;
@@ -154,8 +165,8 @@ h4 {
 
 .header .top-right p.quip {
     text-align:right;
-    font:500 10.5px 'IBM Plex Mono',monospace;
-    color:#a8dbdd;
+    font:500 12px 'IBM Plex Mono',monospace;
+    color:var(--accent-teal-lt);
     letter-spacing:.05em;
     line-height:1.5
 }
@@ -484,9 +495,6 @@ table.table.table-hover thead th {
 .card-dontget { border-left: 3px solid var(--accent-red); }
 .card-usecase { border-left: 3px solid var(--accent-teal-md); }
 
-/*
- * ****************************************************** CVE
-*/
 
 /*
  * ****************************************************** SERVICE (main content item)
@@ -566,6 +574,11 @@ table.service-table td.service-name {
     color: var(--title-text-color);
 }
 
+
+/*
+ * ****************************************************** VARIANT
+*/
+
 .variant-wrap { 
     display: flex; 
     flex-direction: column; 
@@ -593,12 +606,13 @@ table.service-table td.service-name {
 
 /* One-pager artboard */
 .onepager {
-    width: 816px;
+    width: 80%;
     min-height: 1056px;
     display: flex;
     flex-direction: column;
     overflow: hidden;
     font-family: 'Space Grotesk', system-ui, sans-serif;
+    text-align: left;
 }
 
 .onepager-dark {
@@ -632,7 +646,7 @@ table.service-table td.service-name {
 .op-header-meta { 
     text-align: right; 
     font: 500 10.5px 'IBM Plex Mono', monospace; 
-    color: #a8dbdd; 
+    color: var(--accent-teal-lt); 
     letter-spacing: .05em; 
     line-height: 1.5; 
 }
@@ -658,7 +672,7 @@ table.service-table td.service-name {
     color: #fff; 
 }
 
-.op-h1-accent { color: #a8dbdd; }
+.op-h1-accent { color: var(--accent-teal-lt); }
 
 .op-hero-p { 
     margin: 18px 0 0; 
@@ -692,7 +706,7 @@ table.service-table td.service-name {
     letter-spacing: -.02em; 
 }
 
-.op-stat-value-teal { color: #a8dbdd; }
+.op-stat-value-teal { color: var(--accent-teal-lt); }
 .op-stat-value-red { color: #e63a46; }
 .op-stat-label { 
     font-size: 12px; 
@@ -711,7 +725,7 @@ table.service-table td.service-name {
 
 .op-flow-heading { 
     font: 600 11px 'IBM Plex Mono', monospace; 
-    color: #a8dbdd; 
+    color: var(--accent-teal-lt); 
     letter-spacing: .1em; 
     text-transform: uppercase; 
 }
@@ -747,7 +761,7 @@ table.service-table td.service-name {
 
 .op-flow-step-wide-sm { flex: 1.1; }
 .op-flow-step-highlight { background: #1e3558; }
-.op-flow-step-final { background: #a8dbdd; }
+.op-flow-step-final { background: var(--accent-teal-lt); }
 
 .op-flow-step-title { 
     font-size: 14px; 
@@ -825,7 +839,7 @@ table.service-table td.service-name {
 
 .op-footer-demo { 
     font: 500 11px 'IBM Plex Mono', monospace; 
-    color: #a8dbdd; 
+    color: var(--accent-teal-lt); 
     margin-top: 8px; 
 }
 
