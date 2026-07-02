@@ -3,6 +3,14 @@
     --primary-bg-grey: #16283F;
     --primary-bg-lt: #16283F;
     --primary-text-color: #F1FCEF;
+
+    --primary-navy: #16365b;        /* (navy)        */
+    --primary-off-white: #eefcee;   /* (green/white) */
+    --primary-lt-blue: #9dddee;     /* (lt blue)     */
+    --primary-lt-lt-blue: #f2f9fa;  /* (lt lt blue)  */
+    --primary-dk-blue: #2f7da0;      /* (dark blue)   */
+    --primary-red: #fa1b3e;          /* (red)         */
+
     --title-text-color: #ffffff;
     --muted-text-color: #B9C6D6;
     --card-bg-color: #16283F;
@@ -120,7 +128,14 @@ h4 {
 
 .header .top-left {}
 .header .top-center {}
-.header .top-center .pfp {margin:15px;}
+.header .top-center .pfp {
+    background-color: var(--primary-off-white);
+    margin:15px;
+    padding: 15px;
+}
+.header .top-center .pfp img {
+    width:150px;
+}
 .header .top-center .title {font-size : 2.5em;}
 .header .top-center .subtitle {font-size : 1.5em;}
 
