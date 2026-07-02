@@ -1,0 +1,19 @@
+permalink: /:year/:month/:day/:title.html
+highlighter: rouge
+
+defaults:
+  -
+    scope:
+      path: ""
+    values:
+      entity: Ghostwriter Template
+      site_author: Ghostwriter
+      site_description: Ghostwriter Template
+      title: Ghostwriter Template
+      subtitle: Ghostwriter Subtitle
+      quip: Ghostwriter Quip
+      logo_url: https://avatars.githubusercontent.com/u/71016797
+      style_css: /www/css/www.css
+      site_js: /www/js/dashboard.js
+      branding_ico: /www/img/branding/brand.ico
+      g_analytics_id: G-DVBV0MV5T4
