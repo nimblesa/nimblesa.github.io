@@ -130,11 +130,14 @@ h4 {
 .header .top-center {}
 .header .top-center .pfp {
     background-color: var(--primary-off-white);
-    margin:15px;
-    padding: 15px;
+    margin:5px;
+    padding: 5px;
+    border: 1px solid #f0f3f7;
+    border-radius:  0.25em;
 }
 .header .top-center .pfp img {
     width:150px;
+    height: auto;
 }
 .header .top-center .title {font-size : 2.5em;}
 .header .top-center .subtitle {font-size : 1.5em;}
