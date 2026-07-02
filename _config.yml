@@ -6,14 +6,14 @@ defaults:
     scope:
       path: ""
     values:
-      entity: Ghostwriter Template
-      site_author: Ghostwriter
-      site_description: Ghostwriter Template
-      title: Ghostwriter Template
-      subtitle: Ghostwriter Subtitle
-      quip: Ghostwriter Quip
+      entity: Nimble Solution Architects
+      site_author: Nimble SA
+      site_description: Nimble Solution Architects
+      title: Nimble Solution Architects
+      subtitle: Data Driven Story Telling
+      quip: In God We Trust.  All Others Bring Data.
       logo_url: /www/img/branding/logo.png
       style_css: /www/css/www.css
       site_js: /www/js/dashboard.js
       branding_ico: /www/img/branding/brand.ico
-      g_analytics_id: G-DVBV0MV5T4
+      g_analytics_id: G-HDJGFDAHGFD
