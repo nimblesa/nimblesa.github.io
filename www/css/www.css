@@ -130,7 +130,7 @@ h4 {
 
 .header .top-center {}
 
-.header .top-center .pfp {
+.header .top-left .pfp {
     background-color: var(--primary-off-white);
     margin:5px;
     padding: 5px;
@@ -138,13 +138,13 @@ h4 {
     border-radius:  0.25em;
 }
 
-.header .top-center .pfp img {
+.header .top-left .pfp img {
     width:150px;
     height: auto;
 }
 
-.header .top-center .title {font-size : 1.5em;}
-.header .top-center .subtitle {font-size : 1em;}
+.header .top-left .title {font-size : 1.5em;}
+.header .top-left .subtitle {font-size : 1em;}
 
 .header .top-right {
     display: inline-table;
