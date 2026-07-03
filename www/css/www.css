@@ -169,42 +169,6 @@ h4 {
 .footer .bottom-center {}
 .footer .bottom-right {}
 
-/*
- * ****************************************************** POST LAYOUT
-*/
-
-.post {}
-
-h1.post-title {
-    margin:0;
-    font-size:46px;
-    line-height:1.04;
-    font-weight:700;
-    letter-spacing:-.02em;
-    color:#fff;
-    text-align: left;
-}
-
-h1.post-title .offset-color {
-    color: var(--accent-teal-lt);   
-}
-
-h3.post-subtitle {
-    font:600 11px 'IBM Plex Mono', monospace;
-    color:var(--primary-red);
-    letter-spacing:.14em;
-    text-transform:uppercase;
-    margin-bottom:15px
-}
-
-h3.post-description p {
-    margin:18px 0 0;
-    font-size:14.5px;
-    line-height:1.62;
-    color:#b9cbdb;
-    max-width:640px
-}
-
 
 /*
  * **************************************************************** BUTTONS
@@ -319,7 +283,57 @@ h3.post-description p {
  * ****************************************************** POST LAYOUT
 */
 
-.post {}
+.post {
+    max-width: 80%;
+    background: var(--primary-dk-blue)
+}
+
+.post .alt-white {
+    color: var(--primary-off-white);
+}
+
+.post .alt-teal {
+    color: var(--accent-teal-lt);
+}
+
+.post .alt-red {
+    color: var(--accent-red);
+}
+
+h1.post-title {
+    margin:0;
+    font-size:46px;
+    line-height:1.04;
+    font-weight:700;
+    letter-spacing:-.02em;
+    color:#fff;
+    text-align: left;
+}
+
+h1.post-title .offset-color {
+    color: var(--accent-teal-lt);   
+}
+
+h3.post-subtitle {
+    font:600 1.5rem 'IBM Plex Mono', monospace;
+    color:var(--primary-red);
+    letter-spacing:.14em;
+    text-transform:uppercase;
+    margin-bottom:15px
+}
+
+h3.post-description p {
+    margin:18px 0 0;
+    font-size:14.5px;
+    line-height:1.62;
+    color:#b9cbdb;
+    max-width:640px
+}
+
+.post p.lead {
+    max-width:42rem;
+    text-align: left;
+}
 
 .eyebrow {
     font: 600 0.6875rem 'IBM Plex Mono', monospace;
@@ -389,17 +403,19 @@ h1.post-title {
 }
 
 .tag-problem {
-    font: 600 0.6875rem 'IBM Plex Mono', monospace;
-    letter-spacing: .08em;
+    font: 600 1rem 'IBM Plex Mono', monospace;
+    letter-spacing: .8em;
     text-transform: uppercase;
     color: var(--accent-red);
+    background-image: url("../img/icons/problem_red.png");
 }
 
 .tag-solution {
-    font: 600 0.6875rem 'IBM Plex Mono', monospace;
-    letter-spacing: .08em;
+    font: 600 1rem 'IBM Plex Mono', monospace;
+    letter-spacing: .8em;
     text-transform: uppercase;
     color: var(--accent-teal-lt);
+    background-image: url("../img/icons/solution_teal.png");
 }
 
 .section-kicker {
