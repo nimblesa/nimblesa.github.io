@@ -27,7 +27,7 @@ body {
     system-ui,sans-serif;
     -webkit-font-smoothing:antialiased;
     text-align: center;
-    font-size: 1em;
+    font-size: 100%;
     font-weight: 100;
 }
 
