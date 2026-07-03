@@ -27,7 +27,7 @@ body {
     system-ui,sans-serif;
     -webkit-font-smoothing:antialiased;
     text-align: center;
-    font-size: 100%;
+    font-size: 1em;
     font-weight: 100;
 }
 
@@ -126,7 +126,9 @@ h4 {
     height: 200px;
 }
 
-.header .top-left {}
+.header .top-left {
+    text-align: left;
+}
 
 .header .top-center {}
 
@@ -136,7 +138,7 @@ h4 {
     padding: 5px;
     border: 1px solid #f0f3f7;
     border-radius:  0.25em;
-    width: 200px;
+    width: 250px;
 }
 
 .header .top-left .pfp img {
@@ -149,12 +151,14 @@ h4 {
     font-size : 1.5em;
     text-align: left;
     color: var(--primary-off-white);
+    padding-left: 10px;
 }
 
 .header .top-left .subtitle {
-    font: 400 12px 'IBM Plex Mono', monospace; 
+    font: 600 12px 'IBM Plex Mono', monospace; 
     font-size : 1em;
     color: var(--primary-lt-blue);
+    padding-left: 10px;
 }
 
 .header .top-right {
@@ -165,8 +169,8 @@ h4 {
 
 .header .top-right p.quip {
     text-align:right;
-    font:500 12px 'IBM Plex Mono',monospace;
-    color:var(--accent-teal-lt);
+    font:600 12px 'IBM Plex Mono',monospace;
+    color: var(--primary-lt-blue);
     letter-spacing:.05em;
     line-height:1.5
 }
@@ -247,7 +251,7 @@ h1.post-title .offset-color {
 
 h3.post-subtitle {
     font:600 11px 'IBM Plex Mono', monospace;
-    color:#e63a46;
+    color:var(--primary-red);
     letter-spacing:.14em;
     text-transform:uppercase;
     margin-bottom:15px
@@ -656,8 +660,8 @@ table.service-table td.service-name {
 /* Hero */
 .op-hero { padding: 34px 48px 0; }
 .op-eyebrow { 
-    font: 600 11px 'IBM Plex Mono', monospace; 
-    color: #e63a46; 
+    font: 600 12px 'IBM Plex Mono', monospace; 
+    color: var(--primary-red); 
     letter-spacing: .14em; 
     text-transform: uppercase; 
     margin-bottom: 15px; 
@@ -707,7 +711,7 @@ table.service-table td.service-name {
 }
 
 .op-stat-value-teal { color: var(--accent-teal-lt); }
-.op-stat-value-red { color: #e63a46; }
+.op-stat-value-red { color: var(--primary-red); }
 .op-stat-label { 
     font-size: 12px; 
     color: #9fb4c8; 
