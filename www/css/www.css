@@ -97,6 +97,7 @@ h4 {
 .header {
     margin: 15px;
     margin-bottom: 40px;
+    font-size: 1rem;
 }
 
 .header .feature-img {
