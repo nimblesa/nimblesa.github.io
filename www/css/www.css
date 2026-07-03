@@ -61,6 +61,18 @@ h4 {
     margin-bottom: 0.25rem;
 }
 
+/*
+ * **************************************************************** BORDERS
+*/
+
+.border-top {
+    border-top: 1px solid var(--common-border);
+}
+
+.border-bottom {
+    border-bottom: 1px solid var(--common-border);
+}
+
 
 /*
  * **************************************************************** WRAPPER
@@ -85,7 +97,7 @@ h4 {
     margin-right: auto;
     padding-top:  2%;
 
-    border-radius:  0.25em;
+    border-radius:  2em;
 
     background-image: url("../img/ux/swatch_ur.png");
     background-position: top right;
@@ -279,13 +291,144 @@ h4 {
     border: 2px solid #f1fbf0;
 }
 
+
 /*
  * ****************************************************** POST LAYOUT
 */
 
 .post {
     max-width: 80%;
-    background: var(--primary-dk-blue)
+    background: var(--primary-navy);
+    border-radius: 2em;
+    padding: 15px;
+}
+
+.post .pre-title {
+    font: 600 0.6875rem 'IBM Plex Mono', monospace;
+    color: var(--accent-red);
+    letter-spacing: .14em;
+    text-transform: uppercase;
+}
+
+h1.post-title {
+    margin:0;
+    font-size:46px;
+    line-height:1.04;
+    font-weight:700;
+    letter-spacing:-.02em;
+    color:#fff;
+    text-align: left;
+}
+
+h1.post-title .offset-color {
+    color: var(--accent-teal-lt);   
+}
+
+.post p.lead {
+    text-align: left;
+}
+
+.post .feature-row {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.post .stat-value {
+    font-size: clamp(1.5rem, 4vw, 2rem);
+    font-weight: 700;
+    letter-spacing: -.02em;
+    color: var(--title-text-color);
+}
+
+.post .stat-label {
+    font-size: 0.8125rem;
+    color: var(--muted-text-color);
+    margin-top: .25rem;
+}
+
+.post .alt-white {
+    color: var(--primary-off-white);
+}
+
+.post .alt-teal {
+    color: var(--accent-teal-lt);
+}
+
+.post .alt-red {
+    color: var(--accent-red);
+}
+
+.post .problem {
+    background-image: url("../img/icons/problem_red.png");
+    background-position: top left;
+    background-size: 40px;
+}
+
+.post .problem-title {
+    text-align: left;
+}
+
+.post .problem-desc {
+    font: 600 1rem 'IBM Plex Mono', monospace;
+    letter-spacing: .8em;
+    text-transform: uppercase;
+    color: var(--accent-red);
+}
+
+.post .problem-text {}
+
+.post .solution {
+    background-image: url("../img/icons/solution_teal.png");
+    background-position: top left;
+    background-size: 40px;
+}
+
+.post .solution-title {
+    text-align: left;
+}
+
+.post .solution-desc {
+    font: 600 1rem 'IBM Plex Mono', monospace;
+    letter-spacing: .8em;
+    text-transform: uppercase;
+    color: var(--accent-teal-lt);
+    background-image: url("../img/icons/solution_teal.png");
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+ * ****************************************************** POST LAYOUT
+*/
+
+
+/*
+.post {
+    max-width: 80%;
+    background: var(--primary-navy);
+    border-radius: 2em;
+    padding: 15px;
 }
 
 .post .alt-white {
@@ -314,12 +457,11 @@ h1.post-title .offset-color {
     color: var(--accent-teal-lt);   
 }
 
-h3.post-subtitle {
+h2.post-subtitle {
     font:600 1.5rem 'IBM Plex Mono', monospace;
-    color:var(--primary-red);
-    letter-spacing:.14em;
-    text-transform:uppercase;
-    margin-bottom:15px
+    color:var(--primary-off-white);
+    margin-bottom:15px;
+    text-align: left;
 }
 
 h3.post-description p {
@@ -342,8 +484,12 @@ h3.post-description p {
     text-transform: uppercase;
 }
 
+*/
+
 /* www.css sets h1.post-title to a fixed 46px; override with a
    fluid clamp so the hero does not overflow narrow viewports */
+
+/*
 h1.post-title {
     font-size: clamp(1.75rem, 6vw, 2.875rem);
     line-height: 1.1;
@@ -403,6 +549,10 @@ h1.post-title {
 }
 
 .tag-problem {
+    text-align: left;
+}
+
+.tag-problem-desc {
     font: 600 1rem 'IBM Plex Mono', monospace;
     letter-spacing: .8em;
     text-transform: uppercase;
@@ -495,8 +645,10 @@ h1.post-title {
     min-height: 44px;
     line-height: 44px;
 }
+*/
 
 /* ===== mobile breakpoints (must stay last) ===== */
+/*
 @media (min-width: 768px) {
     .border-token-start-md {
         border-left: 1px solid var(--common-border);
@@ -508,3 +660,4 @@ h1.post-title {
         display: none;
     }
 }
+*/
