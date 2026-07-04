@@ -315,7 +315,7 @@ h4 {
 }
 
 h1.title {
-    font: 600 64px 'Space Grotesk', monospace;
+    font: 700 64px 'Space Grotesk', monospace;
     margin:10px;
     line-height:1.1;
     font-weight:700;
@@ -416,7 +416,6 @@ h1.title .offset-color {
 }
 
 .post .solution-text {
-    font-size: 0.75em;
     color: var(--primary-dk-navy);
 }
 
