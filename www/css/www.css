@@ -454,7 +454,7 @@ h2.post-subtitle {
 }
 
 .post .break-row {
-    margin-top: 15px;
+    margin-top: 50px;
     margin-bottom: 15px;
 }
 
@@ -478,7 +478,7 @@ h2.post-subtitle {
 
 .post .workflow-row {
     margin-top: 15px;
-    margin-bottom: 15px;
+    margin-bottom: 50px;
 }
 
 .post .workflow-row .flow-step {
@@ -518,7 +518,9 @@ h2.post-subtitle {
     color: var(--muted-text-color);
 }
 
-.post .value-row {
+.post .highlight-row {
+    margin-left: 50px;
+    margin-right: 50px;
     margin-top: 15px;
     margin-bottom: 15px;
     font-size: 0.8125rem;
@@ -529,7 +531,7 @@ h2.post-subtitle {
     border-radius: 8px;
 }
 
-.post .value-title {
+.post .highlight-title {
     font: 600 1rem 'IBM Plex Mono', monospace;
     letter-spacing: .1em;
     text-transform: uppercase;
