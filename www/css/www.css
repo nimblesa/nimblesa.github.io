@@ -302,6 +302,7 @@ h4 {
     background: var(--primary-dk-navy);
     border-radius: var(--common-radius);
     padding: 15px;
+    margin-left: 15px;
 }
 
 .post .pre-title {
