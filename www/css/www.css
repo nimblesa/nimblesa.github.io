@@ -537,7 +537,7 @@ h2.post-subtitle {
 }
 
 .post .highlight-row p {
-    font: 600 0.75rem 'IBM Plex Mono', monospace;
+    font-size: 1rem;
 }
 
 
