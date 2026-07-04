@@ -314,9 +314,9 @@ h4 {
 }
 
 h1.title {
+    font: 600 64px 'Space Grotesk', monospace;
     margin:10px;
-    font-size:56px;
-    line-height:1.04;
+    line-height:1.1;
     font-weight:700;
     letter-spacing:-.02em;
     color:#fff;
@@ -448,8 +448,6 @@ h1.title .offset-color {
     min-width: 150px;
     background: var(--primary-bg-color);
     padding: 15px;
-    margin-left: auto;
-    margin-right: auto;
 }
 
 .post .workflow-row .highlight {
