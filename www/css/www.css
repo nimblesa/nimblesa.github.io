@@ -310,11 +310,12 @@ h4 {
     letter-spacing: .14em;
     text-transform: uppercase;
     text-align: left;
+    margin: 10px;
 }
 
 h1.title {
-    margin:0;
-    font-size:46px;
+    margin:10px;
+    font-size:56px;
     line-height:1.04;
     font-weight:700;
     letter-spacing:-.02em;
@@ -327,6 +328,7 @@ h1.title .offset-color {
 }
 
 .post p.lead {
+    margin: 10px;
     text-align: left;
 }
 
@@ -368,10 +370,11 @@ h1.title .offset-color {
 .post .problem {
     background-color: var(--primary-dk-navy);
     background-image: url("../img/icons/problem_red.png");
-    background-position: 10px 10px;
+    background-position: 15px 15px;
     background-size: 20px;
     background-repeat: no-repeat;
     padding: 15px;
+    border: 1px solid var(--primary-red);
 }
 
 .post .problem-title {
@@ -390,8 +393,8 @@ h1.title .offset-color {
 
 .post .solution {
     background-color: var(--primary-lt-blue);
-    background-image: url("../img/icons/solution_teal.png");
-    background-position: 10px 10px;
+    background-image: url("../img/icons/solution_navy.png");
+    background-position: 15px 15px;
     background-size: 20px;
     background-repeat: no-repeat;
     padding: 15px;
@@ -411,26 +414,29 @@ h1.title .offset-color {
     color: var(--primary-dk-navy);
 }
 
-.post .solution-test {}
+.post .solution-text {
+    font-size: 0.75em;
+    color: var(--primary-dk-navy);
+}
 
 .post .break-row {
     margin-top: 25px;
-    margin-bottom: 25px;
+    margin-bottom: 5px;
 }
 
 .post .section-callout {
-    font: 600 1rem 'IBM Plex Mono', monospace;
+    font: 600 0.75rem 'IBM Plex Mono', monospace;
     letter-spacing: .1em;
     text-transform: uppercase;
     color: var(--accent-teal-lt);
 }
 
 .post .section-rule {
-    border-top: 1px solid var(--common-border);
+    border-top: 1px solid var(--accent-teal-lt);
 }
 
 .post .section-note {
-    font: 600 1rem 'IBM Plex Mono', monospace;
+    font: 600 0.75rem 'IBM Plex Mono', monospace;
     letter-spacing: .1em;
     text-transform: uppercase;
     color: var(--accent-teal-lt);
