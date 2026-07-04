@@ -371,14 +371,14 @@ h1.title .offset-color {
     background-color: var(--primary-dk-navy);
     background-image: url("../img/icons/problem_red.png");
     background-position: 15px 15px;
-    background-size: 20px;
+    background-size: 25px;
     background-repeat: no-repeat;
     padding: 15px;
     border: 1px solid var(--primary-red);
 }
 
 .post .problem-title {
-    margin-left: 45px;
+    margin-left: 35px;
     text-transform: uppercase;
     text-align: left;
     color: var(--accent-red);
@@ -395,13 +395,13 @@ h1.title .offset-color {
     background-color: var(--primary-lt-blue);
     background-image: url("../img/icons/solution_navy.png");
     background-position: 15px 15px;
-    background-size: 20px;
+    background-size: 25px;
     background-repeat: no-repeat;
     padding: 15px;
 }
 
 .post .solution-title {
-    margin-left: 45px;
+    margin-left: 35px;
     text-transform: uppercase;
     text-align: left;
     color: var(--primary-dk-navy);
@@ -446,7 +446,6 @@ h1.title .offset-color {
 
 .post .workflow-row .flow-step {
     min-width: 150px;
-    border-radius: var(--common-radius);
     background: var(--primary-bg-color);
     padding: 15px;
     margin-left: auto;
