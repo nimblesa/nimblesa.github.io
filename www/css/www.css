@@ -67,11 +67,11 @@ h4 {
 */
 
 .border-top {
-    border-top: 1px solid var(--common-border);
+    border-top: 1px solid var(--accent-teal-lt);
 }
 
 .border-bottom {
-    border-bottom: 1px solid var(--common-border);
+    border-bottom: 1px solid var(--accent-teal-lt);
 }
 
 
@@ -292,7 +292,6 @@ h4 {
     border: 2px solid #f1fbf0;
 }
 
-
 /*
  * ****************************************************** POST LAYOUT
 */
@@ -315,7 +314,7 @@ h4 {
 }
 
 h1.title {
-    font: 700 64px 'Space Grotesk', monospace;
+    font: 700 56px 'Space Grotesk', monospace;
     margin:10px;
     line-height:1.1;
     font-weight:700;
@@ -326,6 +325,14 @@ h1.title {
 
 h1.title .offset-color {
     color: var(--accent-teal-lt);   
+}
+
+h2.post-subtitle {
+    font:600 1.5rem 'IBM Plex Mono', monospace;
+    color:var(--primary-off-white);
+    margin-top: 15px;
+    margin-bottom:15px;
+    text-align: left;
 }
 
 .post p.lead {
@@ -421,7 +428,7 @@ h1.title .offset-color {
 
 .post .break-row {
     margin-top: 25px;
-    margin-bottom: 5px;
+    margin-bottom: 10px;
 }
 
 .post .section-callout {
@@ -436,13 +443,15 @@ h1.title .offset-color {
 }
 
 .post .section-note {
-    font: 600 0.55rem 'IBM Plex Mono', monospace;
+    font: 600 0.65rem 'IBM Plex Mono', monospace;
     letter-spacing: .1em;
     text-transform: uppercase;
     color: var(--muted-text-color);
 }
 
-.post .workflow-row {}
+.post .workflow-row {
+    margin-left: 15px;
+}
 
 .post .workflow-row .flow-step {
     min-width: 150px;
@@ -450,12 +459,14 @@ h1.title .offset-color {
     padding: 15px;
 }
 
+.post .workflow-row .begin {}
+
 .post .workflow-row .highlight {
     border: 1px solid var(--accent-red);
 }
 
 .post .workflow-row .final {
-    background: var(--accent-teal-lt);
+    background-color: var(--primary-lt-blue);
 }
 
 .post .workflow-row  .final .flow-step-title,
