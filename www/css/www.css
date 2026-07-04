@@ -17,7 +17,7 @@
     --common-border: #2E4867;
     --common-shadow: 0 1px 2px rgba(0,0,0,0.25);
     --common-shadow-hover: 0 6px 18px rgba(0,0,0,0.3);
-    --common-radius: 1em;
+    --common-radius: 0.75em;
     --accent-red: #E63A46;
     --accent-teal-lt: #A8DBDD;
     --accent-teal-md: #457D9D;
@@ -316,8 +316,9 @@ h4 {
 h1.title {
     font: 700 56px 'Space Grotesk', monospace;
     margin:10px;
-    line-height:1.1;
-    font-weight:700;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    line-height:1.5;
     letter-spacing:-.02em;
     color:#fff;
     text-align: left;
@@ -443,23 +444,25 @@ h2.post-subtitle {
 }
 
 .post .section-note {
-    font: 600 0.65rem 'IBM Plex Mono', monospace;
+    font: 600 0.55rem 'IBM Plex Mono', monospace;
     letter-spacing: .1em;
     text-transform: uppercase;
     color: var(--muted-text-color);
 }
 
-.post .workflow-row {
-    margin-left: 15px;
-}
+.post .workflow-row {}
 
 .post .workflow-row .flow-step {
     min-width: 150px;
     background: var(--primary-bg-color);
-    padding: 15px;
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
-.post .workflow-row .begin {}
+.post .workflow-row .begin {
+    border: 1px solid var(--accent-teal-lt);
+}
 
 .post .workflow-row .highlight {
     border: 1px solid var(--accent-red);
