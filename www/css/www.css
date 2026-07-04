@@ -436,10 +436,10 @@ h1.title .offset-color {
 }
 
 .post .section-note {
-    font: 600 0.75rem 'IBM Plex Mono', monospace;
+    font: 600 0.55rem 'IBM Plex Mono', monospace;
     letter-spacing: .1em;
     text-transform: uppercase;
-    color: var(--accent-teal-lt);
+    color: var(--muted-text-color);
 }
 
 .post .workflow-row {}
@@ -449,6 +449,8 @@ h1.title .offset-color {
     border-radius: var(--common-radius);
     background: var(--primary-bg-color);
     padding: 15px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .post .workflow-row .highlight {
