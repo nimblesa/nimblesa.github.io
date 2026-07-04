@@ -74,6 +74,7 @@ h4 {
     border-bottom: 1px solid var(--common-border);
 }
 
+.break-row {}
 
 /*
  * **************************************************************** WRAPPER
@@ -366,14 +367,16 @@ h1.title .offset-color {
 }
 
 .post .problem {
-    background-color: var(--primary-navy);
+    background-color: var(--primary-red);
     background-image: url("../img/icons/problem_red.png");
-    background-position: top left;
+    background-position: 20px 20px;
     background-size: 40px;
     background-repeat: no-repeat;
+    padding: 15px;
 }
 
 .post .problem-title {
+    margin-left: 45px;
     text-transform: uppercase;
     text-align: left;
     color: var(--accent-red);
@@ -389,12 +392,14 @@ h1.title .offset-color {
 .post .solution {
     background-color: var(--primary-lt-lt-blue);
     background-image: url("../img/icons/solution_teal.png");
-    background-position: top left;
+    background-position: 20px 20px;
     background-size: 40px;
     background-repeat: no-repeat;
+    padding: 15px;
 }
 
 .post .solution-title {
+    margin-left: 45px;
     text-transform: uppercase;
     text-align: left;
     color: var(--accent-teal-lt);
