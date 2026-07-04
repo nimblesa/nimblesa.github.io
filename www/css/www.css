@@ -74,6 +74,14 @@ h4 {
     border-bottom: 1px solid var(--accent-teal-lt);
 }
 
+.border-right {
+    border-right: 1px solid var(--accent-teal-lt);
+}
+
+.border-left {
+    border-left: 1px solid var(--accent-teal-lt);
+}
+
 
 /*
  * **************************************************************** WRAPPER
@@ -304,6 +312,17 @@ h4 {
     margin-left: 15px;
 }
 
+.post .header-row {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.post .subtitle-row {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+
 .post .pre-title {
     font: 600 1rem 'IBM Plex Mono', monospace;
     color: var(--accent-red);
@@ -342,7 +361,9 @@ h2.post-subtitle {
 }
 
 .post .feature-row {
-    margin-top: 15px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top:15px;
     margin-bottom: 15px;
 }
 
@@ -374,6 +395,11 @@ h2.post-subtitle {
 
 .post .alt-red {
     color: var(--accent-red);
+}
+
+.post .solution-row {
+    margin-top: 15px;
+    margin-bottom: 15px;
 }
 
 .post .problem {
@@ -428,8 +454,8 @@ h2.post-subtitle {
 }
 
 .post .break-row {
-    margin-top: 25px;
-    margin-bottom: 10px;
+    margin-top: 15px;
+    margin-bottom: 15px;
 }
 
 .post .section-callout {
@@ -450,7 +476,10 @@ h2.post-subtitle {
     color: var(--muted-text-color);
 }
 
-.post .workflow-row {}
+.post .workflow-row {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
 
 .post .workflow-row .flow-step {
     min-width: 150px;
@@ -489,13 +518,22 @@ h2.post-subtitle {
     color: var(--muted-text-color);
 }
 
+.post .value-row {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-size: 0.8125rem;
+    line-height: 1.5;
+    color: var(--primary-text-color);
+    background: rgba(230, 58, 70, 0.12);
+    border: 1px solid rgba(230, 58, 70, 0.35);
+    border-radius: 8px;
+}
 
-.post .value-row {}
-
-
-
-
-
+.post .value-title {
+    font: 600 1rem 'IBM Plex Mono', monospace;
+    letter-spacing: .1em;
+    text-transform: uppercase;
+}
 
 
 
