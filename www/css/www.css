@@ -442,41 +442,42 @@ h1.title .offset-color {
     color: var(--accent-teal-lt);
 }
 
-.post .workflow {}
+.post .workflow-row {}
 
-.post .workflow .flow-step {
+.post .workflow-row .flow-step {
     min-width: 150px;
     border-radius: var(--common-radius);
     background: var(--primary-bg-color);
     padding: 15px;
 }
 
-.post .workflow .highlight {
+.post .workflow-row .highlight {
     border: 1px solid var(--accent-red);
 }
 
-.post .workflow .final {
+.post .workflow-row .final {
     background: var(--accent-teal-lt);
 }
 
-.post .workflow  .final .flow-step-title,
-.post .workflow .final .flow-step-desc {
+.post .workflow-row  .final .flow-step-title,
+.post .workflow-row .final .flow-step-desc {
     color: var(--primary-bg-grey);
 }
 
-.post .workflow .flow-step-title {
+.post .workflow-row .flow-step-title {
     font-size: 0.875rem;
     font-weight: 600;
     color: var(--title-text-color);
 }
 
-.post .workflow .flow-step-desc {
+.post .workflow-row .flow-step-desc {
     font-size: 0.75rem;
     line-height: 1.4;
     color: var(--muted-text-color);
 }
 
 
+.post .value-row {}
 
 
 
