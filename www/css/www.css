@@ -4,6 +4,7 @@
     --primary-bg-lt: #16283F;
     --primary-text-color: #F1FCEF;
     --primary-navy: #16365b;        /* (navy)        */
+    --primary-dk-navy: #16273f;     /* (dark navy)        */
     --primary-off-white: #eefcee;   /* (green/white) */
     --primary-lt-blue: #9dddee;     /* (lt blue)     */
     --primary-lt-lt-blue: #f2f9fa;  /* (lt lt blue)  */
@@ -298,19 +299,20 @@ h4 {
 
 .post {
     max-width: 80%;
-    background: var(--primary-navy);
+    background: var(--primary-dk-navy);
     border-radius: 2em;
     padding: 15px;
 }
 
 .post .pre-title {
-    font: 600 0.6875rem 'IBM Plex Mono', monospace;
+    font: 600 1rem 'IBM Plex Mono', monospace;
     color: var(--accent-red);
     letter-spacing: .14em;
     text-transform: uppercase;
+    text-align: left;
 }
 
-h1.post-title {
+h1.title {
     margin:0;
     font-size:46px;
     line-height:1.04;
@@ -320,7 +322,7 @@ h1.post-title {
     text-align: left;
 }
 
-h1.post-title .offset-color {
+h1.title .offset-color {
     color: var(--accent-teal-lt);   
 }
 
@@ -331,6 +333,11 @@ h1.post-title .offset-color {
 .post .feature-row {
     margin-top: 15px;
     margin-bottom: 15px;
+}
+
+.post .feature-col {
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 .post .stat-value {
@@ -362,6 +369,7 @@ h1.post-title .offset-color {
     background-image: url("../img/icons/problem_red.png");
     background-position: top left;
     background-size: 40px;
+    background-repeat: no-repeat;
 }
 
 .post .problem-title {
@@ -381,6 +389,7 @@ h1.post-title .offset-color {
     background-image: url("../img/icons/solution_teal.png");
     background-position: top left;
     background-size: 40px;
+    background-repeat: no-repeat;
 }
 
 .post .solution-title {
