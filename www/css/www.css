@@ -519,10 +519,7 @@ h2.post-subtitle {
 }
 
 .post .highlight-row {
-    margin-left: 50px;
-    margin-right: 50px;
-    margin-top: 15px;
-    margin-bottom: 15px;
+    margin: 15px;
     font-size: 0.8125rem;
     line-height: 1.5;
     color: var(--primary-text-color);
@@ -532,13 +529,16 @@ h2.post-subtitle {
 }
 
 .post .highlight-title {
+    margin-top: 25px;
+    margin-bottom: 25px;
     font: 600 1rem 'IBM Plex Mono', monospace;
     letter-spacing: .1em;
     text-transform: uppercase;
 }
 
-
-
+.post .highlight-row p {
+    font: 600 0.75rem 'IBM Plex Mono', monospace;
+}
 
 
 
