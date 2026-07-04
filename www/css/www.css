@@ -366,6 +366,7 @@ h1.title .offset-color {
 }
 
 .post .problem {
+    background-color: var(--primary-navy);
     background-image: url("../img/icons/problem_red.png");
     background-position: top left;
     background-size: 40px;
@@ -373,19 +374,20 @@ h1.title .offset-color {
 }
 
 .post .problem-title {
+    text-transform: uppercase;
     text-align: left;
+    color: var(--accent-red);
 }
 
 .post .problem-desc {
     font: 600 1rem 'IBM Plex Mono', monospace;
-    letter-spacing: .8em;
-    text-transform: uppercase;
-    color: var(--accent-red);
+    letter-spacing: .1em;
 }
 
 .post .problem-text {}
 
 .post .solution {
+    background-color: var(--primary-lt-lt-blue);
     background-image: url("../img/icons/solution_teal.png");
     background-position: top left;
     background-size: 40px;
@@ -393,18 +395,38 @@ h1.title .offset-color {
 }
 
 .post .solution-title {
+    text-transform: uppercase;
     text-align: left;
+    color: var(--accent-teal-lt);
 }
 
 .post .solution-desc {
     font: 600 1rem 'IBM Plex Mono', monospace;
-    letter-spacing: .8em;
-    text-transform: uppercase;
-    color: var(--accent-teal-lt);
+    letter-spacing: .1em;
     background-image: url("../img/icons/solution_teal.png");
 }
 
+.post .solution-test {}
 
+.post .section-callout {
+    font: 600 1rem 'IBM Plex Mono', monospace;
+    letter-spacing: .1em;
+    text-transform: uppercase;
+    color: var(--accent-teal-lt);
+}
+
+.post .section-rule {
+    height: 1px;
+    background: var(--common-border);
+    min-width: 20px;
+}
+
+.post .section-note {
+    font: 600 1rem 'IBM Plex Mono', monospace;
+    letter-spacing: .1em;
+    text-transform: uppercase;
+    color: var(--accent-teal-lt);
+}
 
 
 
