@@ -592,15 +592,15 @@ h2.post-subtitle {
     font-size: 1rem;
 }
 
-.post .pipeline-row img.pipeline-img {
+.post .pipeline-col {
+    text-align: left;
+}
+
+.post .pipeline-col img.pipeline-img {
     width: 700px;
     height: auto;
     border-radius: 1em;
     border: 1px solid var(--primary-red);
-}
-
-.post .pipeline-col {
-    text-align: left;
 }
 
 
