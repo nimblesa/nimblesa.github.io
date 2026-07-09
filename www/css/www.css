@@ -179,8 +179,7 @@ h4 {
 */
 
 .schedule-button {
-    margin-top: auto;
-    margin-bottom: auto;
+    margin-top: 150px;
 }
 
 /*
@@ -597,6 +596,7 @@ h2.post-subtitle {
     width: 70%;
     height: auto;
     border-radius: 1em;
+    border: 1px solid var(--primary-red);
 }
 
 .post .pipeline-col {
