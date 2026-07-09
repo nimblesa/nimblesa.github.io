@@ -588,6 +588,7 @@ h2.post-subtitle {
 }
 
 .post .pipeline-row p {
+    font-size: 0.75;
     text-align: left;
     font-size: 1rem;
 }
