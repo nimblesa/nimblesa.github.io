@@ -18,23 +18,25 @@ tags: [civic, transparency, data]
 	        </p>
 		</div>
 		<div class="col-4">
-			<!-- Google Calendar Appointment Scheduling begin -->
-			<link href="https://calendar.google.com/calendar/scheduling-button-script.css" rel="stylesheet">
-			<script src="https://calendar.google.com/calendar/scheduling-button-script.js" async></script>
-			<script>
-				(function() {
-					var target = document.currentScript;
-					window.addEventListener('load', function() {
-					calendar.schedulingButton.load({
-						url: 'https://calendar.google.com/calendar/appointments/schedules/AcZssZ10EjTi8NQmSnITqNBYzAeXbKE_vgUNuTlaF04ff1lu5e2B73YnA6HMVihY9QHHiZYhnSKgfcWx?gv=true',
-						color: '#039BE5',
-						label: 'Book an appointment',
-						target,
+			<div class="schedule-button">
+				<!-- Google Calendar Appointment Scheduling begin -->
+				<link href="https://calendar.google.com/calendar/scheduling-button-script.css" rel="stylesheet">
+				<script src="https://calendar.google.com/calendar/scheduling-button-script.js" async></script>
+				<script>
+					(function() {
+						var target = document.currentScript;
+						window.addEventListener('load', function() {
+						calendar.schedulingButton.load({
+							url: 'https://calendar.google.com/calendar/appointments/schedules/AcZssZ10EjTi8NQmSnITqNBYzAeXbKE_vgUNuTlaF04ff1lu5e2B73YnA6HMVihY9QHHiZYhnSKgfcWx?gv=true',
+							color: '#9dddee',
+							label: 'Book an appointment',
+							target,
+							});
 						});
-					});
-				})();
-			</script>
-			<!-- end Google Calendar Appointment Scheduling -->
+					})();
+				</script>
+				<!-- end Google Calendar Appointment Scheduling -->
+			</div>
 		</div>
 	</div>
 	<div class="row feature-row border-top border-bottom">
