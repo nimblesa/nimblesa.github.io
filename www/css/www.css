@@ -585,10 +585,22 @@ h2.post-subtitle {
     font: 600 1rem 'IBM Plex Mono', monospace;
     letter-spacing: .1em;
     text-transform: uppercase;
+    text-align: left;
 }
 
-.post .highlight-row p {
+.post .pipeline-row p {
+    text-align: left;
     font-size: 1rem;
+}
+
+.post .pipeline-row img.pipeline-img {
+    width: 70%;
+    height: auto;
+    border-radius: 1em;
+}
+
+.post .pipeline-col {
+    text-align: left;
 }
 
 
