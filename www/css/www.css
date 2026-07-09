@@ -593,7 +593,7 @@ h2.post-subtitle {
 }
 
 .post .pipeline-row img.pipeline-img {
-    width: 70%;
+    width: 700px;
     height: auto;
     border-radius: 1em;
     border: 1px solid var(--primary-red);
