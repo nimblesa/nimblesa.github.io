@@ -567,7 +567,6 @@ h2.post-subtitle {
     font-size: 1rem;
 }
 
-
 .post .pipeline-row {
     margin: 15px;
     font-size: 0.8125rem;
@@ -597,7 +596,8 @@ h2.post-subtitle {
     text-align: left;
 }
 
-.post .pipeline-col p {
+.post .pipeline-graphic {
+    background: #f3f3f3;
     width: 90%;
     margin-left: auto;
     margin-right: auto;
