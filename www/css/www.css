@@ -599,13 +599,15 @@ h2.post-subtitle {
 .post .pipeline-graphic {
     background: #f3f3f3;
     width: 90%;
+    margin-left: auto;
+    margin-right: auto;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 .post .pipeline-col img.pipeline-img {
-    width: 90%;
+    width: 100%;
     height: auto;
     border-radius: 1em;
     border: 1px solid var(--primary-lt-blue);
