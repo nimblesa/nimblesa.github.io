@@ -333,7 +333,8 @@ h4 {
 
 .post .subtitle-link {
     text-align: left;
-    margin: 0 10px 15px;
+    margin: 10px;
+    margin-left: 25px;
 }
 
 .post .subtitle-link a {
@@ -887,7 +888,6 @@ h2.post-subtitle {
     margin: 25px;
     background-color: var(--primary-bg-color);
     border-radius: 0.5em;
-    border: 1px solid var(--primary-lt-blue);
 }
 
 .post .demo-col {
