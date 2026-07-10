@@ -615,6 +615,12 @@ h2.post-subtitle {
     text-align: left;
 }
 
+.post .pipeline-col p.section-intro {
+    font-size: 1em;
+    text-align: left;
+
+}
+
 .post .pipeline-col {
     text-align: left;
 }
@@ -660,9 +666,6 @@ h2.post-subtitle {
     text-align: left;
 }
 
-/*
- * ****************************************************** AI ENABLEMENT
-*/
 
 /*
  * ****************************************************** AI ENABLEMENT
@@ -729,6 +732,11 @@ h2.post-subtitle {
 
 .post .ai-enablement-table th.none {
     background: var(--primary-bg-lt);
+}
+
+.post .ai-enablement-table th.purpose {
+    color: var(--primary-navy);
+    background: var(--primary-lt-lt-blue);
 }
 
 .post .ai-enablement-table th.prompt {
