@@ -677,6 +677,11 @@ h2.post-subtitle {
     text-align: left;
 }
 
+.post .ai-enablemen-col p {
+    font-size: 0.75em;
+    text-align: left;
+}
+
 .post .ai-enablement-title {
     margin-top: 25px;
     margin-bottom: 25px;
@@ -694,6 +699,15 @@ h2.post-subtitle {
     border-radius: var(--common-radius);
     overflow: hidden;
 }
+
+.post .ai-enablement-table td.icon-img {
+    text-align: center;
+}
+
+.post .ai-enablement-table img.ai-enablement-img {
+    width: 45px;
+}
+
 
 .post .ai-enablement-table th,
 .post .ai-enablement-table td {
@@ -740,7 +754,7 @@ h2.post-subtitle {
 .post .ai-enablement-table td.title {
     text-align: left;
     font-weight: 600;
-    color: var(--title-text-color);
+    color: var(--title-lt-blue);
     background: var(--primary-bg-lt);
     white-space: nowrap;
 }
@@ -748,7 +762,7 @@ h2.post-subtitle {
 .post .ai-enablement-table td.purpose,
 .post .ai-enablement-table td.data,
 .post .ai-enablement-table td.update {
-    color: var(--muted-text-color);
+    color: var(--primary-off-white);
 }
 
 .post .ai-enablement-table tbody td:nth-child(2) {
