@@ -406,6 +406,10 @@ h2.post-subtitle {
     color: var(--accent-red);
 }
 
+/*
+ * ****************************************************** SOLUTION
+*/
+
 .post .solution-row {
     margin-top: 15px;
     margin-bottom: 15px;
@@ -462,6 +466,10 @@ h2.post-subtitle {
     color: var(--primary-dk-navy);
 }
 
+/*
+ * ****************************************************** BREAK
+*/
+
 .post .break-row {
     margin-top: 50px;
     margin-bottom: 15px;
@@ -484,6 +492,10 @@ h2.post-subtitle {
     text-transform: uppercase;
     color: var(--muted-text-color);
 }
+
+/*
+ * ****************************************************** WORKFLOW
+*/
 
 .post .workflow-row {
     margin-top: 15px;
@@ -527,6 +539,10 @@ h2.post-subtitle {
     color: var(--muted-text-color);
 }
 
+/*
+ * ****************************************************** HIGHLIGHT
+*/
+
 .post .highlight-row {
     margin: 15px;
     font-size: 0.8125rem;
@@ -549,6 +565,10 @@ h2.post-subtitle {
     font-size: 1rem;
 }
 
+/*
+ * ****************************************************** VALUE
+*/
+
 .post .value-row {
     text-align: left;
     margin: 15px;
@@ -566,6 +586,10 @@ h2.post-subtitle {
 .post .value-row p {
     font-size: 1rem;
 }
+
+/*
+ * ****************************************************** PIPELINE
+*/
 
 .post .pipeline-row {
     margin: 15px;
@@ -600,6 +624,8 @@ h2.post-subtitle {
     width: 100%;
     margin-left: auto;
     margin-right: auto;
+    margin-top: 25px;
+    margin-bottom: 25px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -615,216 +641,8 @@ h2.post-subtitle {
 }
 
 
-/*
- * ****************************************************** POST LAYOUT
-*/
-
-
-/*
-.post {
-    max-width: 80%;
-    background: var(--primary-navy);
-    border-radius: 2em;
-    padding: 15px;
-}
-
-.post .alt-white {
-    color: var(--primary-off-white);
-}
-
-.post .alt-teal {
-    color: var(--accent-teal-lt);
-}
-
-.post .alt-red {
-    color: var(--accent-red);
-}
-
-h1.post-title {
-    margin:0;
-    font-size:46px;
-    line-height:1.04;
-    font-weight:700;
-    letter-spacing:-.02em;
-    color:#fff;
-    text-align: left;
-}
-
-h1.post-title .offset-color {
-    color: var(--accent-teal-lt);   
-}
-
-h2.post-subtitle {
-    font:600 1.5rem 'IBM Plex Mono', monospace;
-    color:var(--primary-off-white);
-    margin-bottom:15px;
-    text-align: left;
-}
-
-h3.post-description p {
-    margin:18px 0 0;
-    font-size:14.5px;
-    line-height:1.62;
-    color:#b9cbdb;
-    max-width:640px
-}
-
-.post p.lead {
-    max-width:42rem;
-    text-align: left;
-}
-
-.eyebrow {
-    font: 600 0.6875rem 'IBM Plex Mono', monospace;
-    color: var(--accent-red);
-    letter-spacing: .14em;
-    text-transform: uppercase;
-}
-
-*/
-
-/* www.css sets h1.post-title to a fixed 46px; override with a
-   fluid clamp so the hero does not overflow narrow viewports */
-
-/*
-h1.post-title {
-    font-size: clamp(1.75rem, 6vw, 2.875rem);
-    line-height: 1.1;
-}
-
-.offset-color {
-    color: var(--accent-teal-lt);
-}
-
-.text-muted-token {
-    color: var(--muted-text-color);
-}
-
-.text-accent-teal {
-    color: var(--accent-teal-lt);
-}
-
-.text-accent-red {
-    color: var(--accent-red);
-}
-
-.border-token-top {
-    border-top: 1px solid var(--common-border);
-}
-
-.border-token-bottom {
-    border-bottom: 1px solid var(--common-border);
-}
-
-.border-token-start-md {
-    border-left: none;
-}
-
-.stat-value {
-    font-size: clamp(1.5rem, 4vw, 2rem);
-    font-weight: 700;
-    letter-spacing: -.02em;
-    color: var(--title-text-color);
-}
-
-.stat-label {
-    font-size: 0.8125rem;
-    color: var(--muted-text-color);
-    margin-top: .25rem;
-}
-
-.card-token {
-    background: var(--card-bg-color);
-    border: 1px solid var(--common-border);
-    border-radius: var(--common-radius);
-    box-shadow: var(--common-shadow);
-}
-
-.card-token-accent {
-    background: var(--primary-bg-color);
-    border-color: var(--accent-teal-md);
-}
-
-.tag-problem {
-    text-align: left;
-}
-
-.tag-problem-desc {
-    font: 600 1rem 'IBM Plex Mono', monospace;
-    letter-spacing: .8em;
-    text-transform: uppercase;
-    color: var(--accent-red);
-    background-image: url("../img/icons/problem_red.png");
-}
-
-.tag-solution {
-    font: 600 1rem 'IBM Plex Mono', monospace;
-    letter-spacing: .8em;
-    text-transform: uppercase;
-    color: var(--accent-teal-lt);
-    background-image: url("../img/icons/solution_teal.png");
-}
-
-.section-kicker {
-    font: 600 0.6875rem 'IBM Plex Mono', monospace;
-    letter-spacing: .1em;
-    text-transform: uppercase;
-    color: var(--accent-teal-lt);
-}
-
-.section-note {
-    font: 500 0.6875rem 'IBM Plex Mono', monospace;
-    color: var(--muted-text-color);
-}
-
-.kicker-rule {
-    height: 1px;
-    background: var(--common-border);
-    min-width: 20px;
-}
-
-.flow-step {
-    flex: 1 1 150px;
-    min-width: 150px;
-    border-radius: var(--common-radius);
-    background: var(--primary-bg-color);
-    padding: .875rem .8125rem;
-}
-
-.flow-step-flag {
-    border: 1px solid var(--accent-red);
-}
-
-.flow-step-final {
-    background: var(--accent-teal-lt);
-}
-
-.flow-step-final .flow-step-title,
-.flow-step-final .flow-step-desc {
-    color: var(--primary-bg-grey);
-}
-
-.flow-step-title {
-    font-size: 0.875rem;
-    font-weight: 600;
-    color: var(--title-text-color);
-}
-
-.flow-step-desc {
-    font-size: 0.75rem;
-    line-height: 1.4;
-    color: var(--muted-text-color);
-}
-
-.flow-arrow {
-    align-self: center;
-    color: var(--accent-teal-md);
-    font-size: 1.0625rem;
-    font-weight: 700;
-    text-align: center;
-}
-
-.callout {
+.post .pipeline-row {
+    margin: 15px;
     font-size: 0.8125rem;
     line-height: 1.5;
     color: var(--primary-text-color);
@@ -833,28 +651,122 @@ h1.post-title {
     border-radius: 8px;
 }
 
-.cta-link {
-    font-size: 1.0625rem;
+.post .pipeline-title {
+    margin-top: 25px;
+    margin-bottom: 25px;
+    font: 600 1rem 'IBM Plex Mono', monospace;
+    letter-spacing: .1em;
+    text-transform: uppercase;
+    text-align: left;
+}
+
+/*
+ * ****************************************************** AI ENABLEMENT
+*/
+
+/*
+ * ****************************************************** AI ENABLEMENT
+*/
+
+.post .ai-enablement-row {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.post .ai-enablement-col {
+    text-align: left;
+}
+
+.post .ai-enablement-title {
+    margin-top: 25px;
+    margin-bottom: 25px;
+    font: 600 1rem 'IBM Plex Mono', monospace;
+    letter-spacing: .1em;
+    text-transform: uppercase;
+    color: var(--primary-off-white);
+}
+
+.post .ai-enablement-table {
+    width: 100%;
+    border-collapse: collapse;
+    background: var(--card-bg-color);
+    border: 1px solid var(--common-border);
+    border-radius: var(--common-radius);
+    overflow: hidden;
+}
+
+.post .ai-enablement-table th,
+.post .ai-enablement-table td {
+    padding: 12px 10px;
+    text-align: center;
+    border-bottom: 1px solid var(--common-border);
+    font-size: 0.875rem;
+    line-height: 1.4;
+}
+
+.post .ai-enablement-table thead th {
+    font-size: 0.75rem;
+    text-transform: uppercase;
+    letter-spacing: 0.03em;
+    color: var(--muted-text-color);
+    background: var(--primary-bg-lt);
+    border-top: 3px solid transparent;
+}
+
+.post .ai-enablement-table th.none {
+    background: var(--primary-bg-lt);
+}
+
+.post .ai-enablement-table th.prompt {
+    color: var(--accent-teal-lt);
+    border-top-color: var(--accent-teal-lt);
+}
+
+.post .ai-enablement-table th.knowledge {
+    color: var(--primary-dk-blue);
+    border-top-color: var(--primary-dk-blue);
+}
+
+.post .ai-enablement-table th.agentic {
+    color: var(--accent-teal-md);
+    border-top-color: var(--accent-teal-md);
+}
+
+.post .ai-enablement-table th.guardrails {
+    color: var(--accent-red);
+    border-top-color: var(--accent-red);
+}
+
+.post .ai-enablement-table td.title {
+    text-align: left;
     font-weight: 600;
     color: var(--title-text-color);
-    text-decoration: underline;
-    display: inline-block;
-    min-height: 44px;
-    line-height: 44px;
-}
-*/
-
-/* ===== mobile breakpoints (must stay last) ===== */
-/*
-@media (min-width: 768px) {
-    .border-token-start-md {
-        border-left: 1px solid var(--common-border);
-    }
+    background: var(--primary-bg-lt);
+    white-space: nowrap;
 }
 
-@media (max-width: 767.98px) {
-    .flow-arrow {
-        display: none;
-    }
+.post .ai-enablement-table td.purpose,
+.post .ai-enablement-table td.data,
+.post .ai-enablement-table td.update {
+    color: var(--muted-text-color);
 }
-*/
+
+.post .ai-enablement-table tbody td:nth-child(2) {
+    border-left: 2px solid var(--accent-teal-lt);
+}
+
+.post .ai-enablement-table tbody td:nth-child(3) {
+    border-left: 2px solid var(--primary-dk-blue);
+}
+
+.post .ai-enablement-table tbody td:nth-child(4) {
+    border-left: 2px solid var(--accent-teal-md);
+}
+
+.post .ai-enablement-table tbody td:nth-child(5) {
+    border-left: 2px solid var(--accent-red);
+}
+
+.post .ai-enablement-table tbody tr:last-child td {
+    border-bottom: none;
+}
