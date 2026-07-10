@@ -597,11 +597,12 @@ h2.post-subtitle {
 }
 
 .post .pipeline-graphic {
-    text-align: center;
     background: #f3f3f3;
     width: 90%;
     margin-left: auto;
     margin-right: auto;
+    padding-right: auto;
+    padding-left: auto;
 }
 
 .post .pipeline-col img.pipeline-img {
