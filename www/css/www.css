@@ -828,6 +828,7 @@ h2.post-subtitle {
     line-height: 1.5;
     color: var(--muted-text-color);
     position: relative;
+    min-height: 150px;
 }
 
 .post .gis-value-list li:first-child {
