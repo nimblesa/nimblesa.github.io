@@ -357,7 +357,7 @@ h1.title .offset-color {
 }
 
 h2.post-subtitle {
-    font:600 1.5rem 'IBM Plex Mono', monospace;
+    font:600 2rem 'IBM Plex Mono', monospace;
     color:var(--primary-off-white);
     margin-top: 15px;
     margin-bottom:15px;
