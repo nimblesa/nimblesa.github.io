@@ -666,7 +666,6 @@ h2.post-subtitle {
     text-align: left;
 }
 
-
 /*
  * ****************************************************** AI ENABLEMENT
 */
@@ -791,4 +790,68 @@ h2.post-subtitle {
 
 .post .ai-enablement-table tbody tr:last-child td {
     border-bottom: none;
+}
+
+/*
+ * ****************************************************** GIS
+*/
+
+.post .gis-col {
+    text-align: left;
+}
+
+.post .gis-title {
+    font: 600 1.5rem 'Space Grotesk', system-ui, sans-serif;
+    color: var(--title-text-color);
+    margin-top: 10px;
+    margin-bottom: 15px;
+    letter-spacing: -.01em;
+}
+
+.post .gis-blurb {
+    font-size: 1rem;
+    line-height: 1.6;
+    color: var(--muted-text-color);
+    margin-bottom: 20px;
+}
+
+.post .gis-value-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.post .gis-value-list li {
+    padding: 12px 0 12px 20px;
+    border-top: 1px solid var(--common-border);
+    font-size: 0.875rem;
+    line-height: 1.5;
+    color: var(--muted-text-color);
+    position: relative;
+}
+
+.post .gis-value-list li:first-child {
+    border-top: none;
+}
+
+.post .gis-value-list li::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 20px;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: var(--accent-teal-lt);
+}
+
+.post .gis-value-label {
+    display: block;
+    font-weight: 600;
+    color: var(--title-text-color);
+    margin-bottom: 2px;
+}
+
+.post .gis-col img.gis-img {
+    border-radius: 0.5em;
 }
