@@ -920,8 +920,10 @@ h2.post-subtitle {
     text-align: left;
     padding: 15px;
     border-top: 3px solid var(--accent-teal-lt);
+    /*
     background: var(--card-bg-color);
     border-radius: var(--common-radius);
+    */
     margin-bottom: 15px;
 }
 
