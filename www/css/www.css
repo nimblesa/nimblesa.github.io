@@ -855,4 +855,6 @@ h2.post-subtitle {
 .post .gis-col img.gis-img {
     width: 100%;
     border-radius: 0.5em;
+    margin-top: 25px;
+    margin-bottom: 25px;
 }
