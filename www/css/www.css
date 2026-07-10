@@ -858,4 +858,5 @@ h2.post-subtitle {
     border-radius: 0.5em;
     margin-top: 20px;
     margin-bottom: 20px;
+    border: 4px solid var(--primary-off-white);
 }
