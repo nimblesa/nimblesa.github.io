@@ -182,6 +182,7 @@ h4 {
     margin-top: 150px;
 }
 
+
 /*
  * ****************************************************** FOOTER LAYOUT
 */
@@ -199,6 +200,9 @@ h4 {
 .footer .bottom-center {}
 .footer .bottom-right {}
 
+.footer .schedule-button {
+    margin-top: 100px;
+}
 
 /*
  * **************************************************************** BUTTONS
