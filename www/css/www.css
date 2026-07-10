@@ -860,3 +860,33 @@ h2.post-subtitle {
     margin-bottom: 20px;
     border: 4px solid var(--primary-off-white);
 }
+
+/*
+ * ****************************************************** DEMO
+*/
+
+.post .demo-row {
+    background-color: var(--primary-bg-color);
+    border-radius: 0.5em;
+}
+
+.post .demo-col {
+    text-align: left;
+}
+
+.post .gis-title {
+    font: 600 1.5rem 'Space Grotesk', system-ui, sans-serif;
+    color: var(--title-text-color);
+    margin-top: 10px;
+    margin-bottom: 15px;
+    letter-spacing: -.01em;
+}
+
+.post .gis-subtitle {
+    font:600 1rem 'IBM Plex Mono', monospace;
+    color:var(--primary-off-white);
+    margin-top: 15px;
+    margin-bottom:15px;
+    text-align: left;
+}
+
