@@ -596,7 +596,7 @@ h2.post-subtitle {
 }
 
 .post .pipeline-graphic {
-    background: #f3f3f3;
+    background: var(--primary-off-white);
     width: 100%;
     margin-left: auto;
     margin-right: auto;
@@ -610,7 +610,7 @@ h2.post-subtitle {
 .post .pipeline-col img.pipeline-img {
     width: 100%;
     height: auto;
-    border-radius: 1em;
+    border-radius: 0.5em;
     border: 1px solid var(--primary-lt-blue);
 }
 
