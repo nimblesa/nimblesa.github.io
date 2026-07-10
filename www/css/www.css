@@ -604,6 +604,7 @@ h2.post-subtitle {
     justify-content: center;
     align-items: center;
     padding : 25px;
+    border-radius: .5em;
 }
 
 .post .pipeline-col img.pipeline-img {
