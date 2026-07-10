@@ -611,7 +611,7 @@ h2.post-subtitle {
     width: 100%;
     height: auto;
     border-radius: 0.5em;
-    border: 1px solid var(--primary-lt-blue);
+    /*border: 1px solid var(--primary-lt-blue);*/
 }
 
 
