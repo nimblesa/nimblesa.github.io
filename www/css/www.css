@@ -603,7 +603,7 @@ h2.post-subtitle {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding : 25px;
+    padding : 10px;
     border-radius: .5em;
 }
 
