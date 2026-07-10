@@ -597,6 +597,7 @@ h2.post-subtitle {
 }
 
 .post .pipeline-graphic {
+    text-align: center;
     background: #f3f3f3;
     width: 90%;
     margin-left: auto;
