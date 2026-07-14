@@ -395,7 +395,6 @@ h1.title {
     letter-spacing:-.02em;
     color:#fff;
     text-align: left;
-    border: 1px solid red;
 }
 
 h1.title .offset-color {
@@ -403,7 +402,7 @@ h1.title .offset-color {
 }
 
 h2.post-subtitle {
-    font:600 48px 'IBM Plex Mono', monospace;
+    font:600 44px 'IBM Plex Mono', monospace;
     color:var(--primary-off-white);
     text-align: left;
     max-width: 50%;
