@@ -202,7 +202,7 @@ h4 {
     margin-top: 20%;
     display: grid;
     justify-items: center;
-    align-items: center; 
+    /*align-items: center;*/
 }
 
 .footer img.powered_by {
@@ -211,7 +211,8 @@ h4 {
 }
 
 .footer .schedule-button {
-    margin-top: 20%;
+    margin-top: 10%;
+    margin-bottom: 10%;
 }
 
 /*
