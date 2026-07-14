@@ -210,9 +210,8 @@ h4 {
 }
 
 .footer img.powered_by {
-    display: inline-flex;
     margin-top: 125px;
-    margin-right: 225px;
+    margin-right: 275px;
     width: 275px;
     height: auto;
 }
