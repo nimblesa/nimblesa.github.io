@@ -199,15 +199,11 @@ h4 {
     border: 1px solid #f0f3f7;
     border-radius:  0.25em;
     padding: 10px;
-    margin-top: 10%;
-    margin-bottom: 10%;
     margin-left: auto;
     margin-right: auto;
-    /*
     display: grid;
     justify-items: center;
-    align-items: center;
-    */
+    align-items: bottom;
 }
 
 .footer img.powered_by {
@@ -218,6 +214,8 @@ h4 {
 .footer .schedule-button {
     margin-top: 10%;
     margin-bottom: 10%;
+    margin-right: auto;
+    margin-left: auto;
     width: 150px;
 }
 
