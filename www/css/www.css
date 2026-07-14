@@ -147,7 +147,7 @@ h4 {
 }
 
 .header .top-left .pfp img {
-    width:200px;
+    width:225px;
     height: auto;
     padding-left: 12px;
 }
@@ -201,6 +201,7 @@ h4 {
     border: 1px solid #f0f3f7;
     border-radius:  0.25em;
     margin-top: 40%;
+    padding: 10px;
 }
 
 .footer img.powered_by {
