@@ -188,20 +188,14 @@ h4 {
 
 .footer {
     min-height: 100px;
-    border: 1px solid red;
 }
 
-.footer .bottom-left {
-    border: 1px solid red;
-}
-.footer .bottom-center {
-    border: 1px solid red;
-}
+.footer .bottom-left {}
+.footer .bottom-center {}
 .footer .bottom-right {
     display: grid;
     justify-items: end;
     align-items: end;
-    border: 1px solid red;
 }
 
 .footer .powered {
