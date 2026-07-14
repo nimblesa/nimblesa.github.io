@@ -191,12 +191,22 @@ h4 {
     min-height: 100px;
 }
 
+.footer .bottom-left {}
+.footer .bottom-center {}
+.footer .bottom-right {
+    display: grid;
+    align-content: end;
+    justify-content: start;
+}
+
 .footer .powered {
     background-color: var(--primary-off-white);
     margin:5px;
     padding: 5px;
     border: 1px solid #f0f3f7;
     border-radius:  0.25em;
+    width: 325px;
+    max-height: 150px;
 }
 
 .footer img.powered_by {
@@ -206,10 +216,6 @@ h4 {
     width: 275px;
     height: auto;
 }
-
-.footer .bottom-left {}
-.footer .bottom-center {}
-.footer .bottom-right {}
 
 .footer .schedule-button {
     margin-top: 100px;
