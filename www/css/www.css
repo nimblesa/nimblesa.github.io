@@ -191,12 +191,17 @@ h4 {
     border: 1px solid red;
 }
 
-.footer .bottom-left {}
-.footer .bottom-center {}
+.footer .bottom-left {
+    border: 1px solid red;
+}
+.footer .bottom-center {
+    border: 1px solid red;
+}
 .footer .bottom-right {
     display: grid;
     justify-items: start;
     align-items: end;
+    border: 1px solid red;
 }
 
 .footer .powered {
