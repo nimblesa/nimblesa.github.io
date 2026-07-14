@@ -179,9 +179,7 @@ h4 {
  * ****************************************************** SCHEDULE BUTTON
 */
 
-.schedule-button {
-    margin-top: 150px;
-}
+.schedule-button {}
 
 
 /*
@@ -197,10 +195,11 @@ h4 {
 .footer .bottom-right {}
 
 .footer .powered {
+    display: grid;
+    place-items: center;
     background-color: var(--primary-off-white);
     border: 1px solid #f0f3f7;
     border-radius:  0.25em;
-    margin-top: 40%;
     padding: 10px;
 }
 
@@ -209,9 +208,7 @@ h4 {
     height: auto;
 }
 
-.footer .schedule-button {
-    margin-top: 40%;
-}
+.footer .schedule-button {}
 
 /*
  * **************************************************************** BUTTONS
@@ -338,6 +335,11 @@ h4 {
     margin-top: 15px;
     margin-bottom: 15px;
 }
+
+.post .header-row .schedule-button {
+    margin-top: 150px;
+}
+
 
 .post .subtitle-row {
     margin-top: 15px;
