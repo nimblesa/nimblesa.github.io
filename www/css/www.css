@@ -192,7 +192,11 @@ h4 {
 
 .footer .bottom-left {}
 .footer .bottom-center {}
-.footer .bottom-right {}
+.footer .bottom-right {
+    display: grid;
+    justify-items: start;
+    align-items: end;
+}
 
 .footer .powered {
     background-color: var(--primary-off-white);
@@ -201,9 +205,6 @@ h4 {
     padding: 10px;
     margin-left: auto;
     margin-right: auto;
-    display: grid;
-    justify-items: start;
-    align-items: end;
 }
 
 .footer img.powered_by {
@@ -216,7 +217,7 @@ h4 {
     margin-bottom: 10%;
     margin-right: auto;
     margin-left: auto;
-    width: 150px;
+    min-width: 200px;
 }
 
 /*
