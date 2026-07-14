@@ -195,20 +195,24 @@ h4 {
 .footer .bottom-right {}
 
 .footer .powered {
-    display: grid;
-    place-items: center;
     background-color: var(--primary-off-white);
     border: 1px solid #f0f3f7;
     border-radius:  0.25em;
     padding: 10px;
+    margin-top: 20%;
+    display: grid;
+    justify-items: center;
+    align-items: center; 
 }
 
 .footer img.powered_by {
-    width: 275px;
+    width: 250px;
     height: auto;
 }
 
-.footer .schedule-button {}
+.footer .schedule-button {
+    margin-top: 20%;
+}
 
 /*
  * **************************************************************** BUTTONS
