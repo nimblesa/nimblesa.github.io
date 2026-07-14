@@ -111,6 +111,7 @@ h4 {
     background-image: url("../img/ux/swatch_ur.png");
     background-position: top right;
     background-repeat: no-repeat;
+    margin-bottom: 25px;
 }
 
 /*
@@ -208,7 +209,7 @@ h4 {
 }
 
 .footer .schedule-button {
-    margin-top: 100px;
+    margin-top: 40%;
 }
 
 /*
