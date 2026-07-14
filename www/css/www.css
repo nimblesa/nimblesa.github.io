@@ -193,25 +193,15 @@ h4 {
 
 .footer .bottom-left {}
 .footer .bottom-center {}
-.footer .bottom-right {
-    display: grid;
-    align-content: end;
-    justify-content: start;
-}
+.footer .bottom-right {}
 
 .footer .powered {
     background-color: var(--primary-off-white);
-    margin:5px;
-    padding: 5px;
     border: 1px solid #f0f3f7;
     border-radius:  0.25em;
-    width: 325px;
-    max-height: 150px;
 }
 
 .footer img.powered_by {
-    margin-top: 125px;
-    margin-right: 275px;
     width: 275px;
     height: auto;
 }
