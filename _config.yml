@@ -6,10 +6,10 @@ defaults:
     scope:
       path: ""
     values:
-      entity: Kingfisher by Nimble
+      entity: Kingfisher by Nimble SA
       site_author: Kingfisher
-      site_description: Kingfisher by Nimble
-      title: Kingfisher by Nimble
+      site_description: Kingfisher by Nimble SA
+      title: Kingfisher by Nimble SA
       subtitle: Data Driven Decision Advantage
       quip: Cloud Native Data Publishing
       logo_url: /www/img/branding/logo.png
