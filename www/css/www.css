@@ -1013,6 +1013,7 @@ h2.post-subtitle {
 }
 
 .post .demo-table {
+    padding: 10px;
     background-color: var(--primary-off-white);
     border-radius:  0.25em;
     padding: 5px;
