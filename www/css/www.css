@@ -952,13 +952,9 @@ h2.post-subtitle {
     margin-bottom: 15px;
 }
 
-.post .demo-logo img {
-    width:50px;
-    height: auto;
-}
-
 .post .demo-title {
-    font: 600 1.5rem 'IBM Plex Mono', monospace;
+    color: var(--primary-navy);
+    font: 600 1rem 'IBM Plex Mono', monospace;
     letter-spacing: .1em;
     text-transform: uppercase;
 }
@@ -978,11 +974,42 @@ h2.post-subtitle {
     margin: 0;
 }
 
-.post .demo-link {
-    text-align: left;
-    margin: 10px;
-    margin-left: 75px;
+.post .demo-logo {
+    padding: 10px;
+}
+
+.post .demo-logo img {
+    width:75px;
+    height: auto;
+}
+
+.post .demo-link {}
+
+.post .demo-title a {
     color: var(--primary-navy);
+    font: 600 1rem 'IBM Plex Mono', monospace;
+    letter-spacing: .1em;
+    text-transform: uppercase;
+    color: var(--primary-navy);
+    text-decoration: none;
+}
+
+.post .demo-title a:hover {
+    color: var(--primary-navy);
+}
+
+.post .demo-link a {
+    font: 600 0.875rem 'IBM Plex Mono', monospace;
+    letter-spacing: .05em;
+    color: var(--primary-navy);
+    text-decoration: none;
+    border-bottom: 1px solid var(--primary-navy);
+    padding-bottom: 2px;
+}
+
+.post .demo-link a:hover {
+    color: var(--primary-navy);
+    border-bottom-color: var(--primary-navy);
 }
 
 .post .demo-table {
